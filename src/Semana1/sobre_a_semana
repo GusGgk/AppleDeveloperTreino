@@ -1,0 +1,6 @@
+Segunda-feira: Declaração de variáveis, tipos primitivos (int, double, boolean, char) e
+escopos (global/local de bloco). Entrada de dados com Scanner.
+
+
+Terça-feira: Operadores Lógicos (&& || !), Operador ternário (codição ? valorSeVerdadeiro : valorSeFalso),
+Conversões entre char/String com int + Tabela ASCII, Uso de Métodos úteis (como contains, charAt) e Loops (for e for dentro de for)
