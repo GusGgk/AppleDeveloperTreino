@@ -1,0 +1,21 @@
+Desafio 1 (Baseado na Segunda: #1108 e #2469)
+Crie um método estático em Java chamado formatarEConverter:
+Ele recebe uma String com um número decimal onde as casas decimais estão separadas por vírgula (ex: "25,5").
+Ele deve substituir a vírgula por ponto (como você fez com o IP no #1108).
+Em seguida, converta essa String para double usando Double.parseDouble(texto).
+Calcule e retorne a temperatura correspondente em Fahrenheit ($C \times 1.8 + 32$) igual você fez no #2469.
+
+Desafio 2 (Baseado na Terça: #1365 e #2520)Crie um método chamado contarDivisoresValidos:
+Ele recebe um número inteiro n (ex: n = 124).
+Usando um laço (matemático com % 10 e / 10, ou transformando em String), isole cada dígito do número.
+Conte quantos desses dígitos conseguem dividir o número n perfeitamente (resto zero: n % digito == 0).
+Atenção ao caso de borda: Se o dígito for 0, ignore-o para evitar divisão por zero!
+Exemplo: Para n = 124, os dígitos são 1, 2 e 4.
+$124 \% 1 = 0$ (válido)
+$124 \% 2 = 0$ (válido)
+$124 \% 4 = 0$ (válido)Retorno: 3
+
+Desafio 3 (Baseado na Quarta: #1 e #1812)Crie um método chamado somaEIdentificaParidade:
+Ele recebe um array de números inteiros nums e dois índices i e j.
+Ele deve somar os valores presentes nesses dois índices (conceito do #1 Two Sum).
+Em seguida, retorne true se o resultado da soma for um número PAR e false se for ÍMPAR (conceito do #1812).
