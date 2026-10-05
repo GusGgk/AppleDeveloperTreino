@@ -1,4 +1,4 @@
-package Semana2.Sexta0210.Simulado2;
+package Semana2.Simulado2;
 import java.util.Scanner;
 
 
